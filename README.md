@@ -1,6 +1,5 @@
 # PaAC_open_proj
-4x4 bit approximate multiplier
-This project implements a 4x4 bit approximation multiplier. Unlike a conventional multiplier that uses standard Half Adders (HAs) and Full Adders (FAs) with their typical defined functions, this design employs approximation techniques to reduce complexity while maintaining acceptable accuracy.
+This is a 4x4 bit approximation multiplier. Unlike a conventional multiplier that uses standard Half Adders (HAs) and Full Adders (FAs) with their typical defined functions, this design employs approximation techniques to reduce complexity while maintaining acceptable accuracy.
 Design Methodology:
 Step 1: Partial Product Generation
 All normal multiplication terms were first generated:
