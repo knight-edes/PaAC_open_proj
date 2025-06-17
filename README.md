@@ -58,7 +58,7 @@ Utilization Report: 11 LUTs were used.
 ![image](https://github.com/user-attachments/assets/e99d3c3b-423a-4ff4-af53-654619ed6eda)
 ![image](https://github.com/user-attachments/assets/97853ed0-cde8-4fe7-b3d0-29ba134fbb44)
 ![image](https://github.com/user-attachments/assets/f82831c8-52d0-4f40-a9ba-375302e356cb)
-
+//
 Power Report:
 ![image](https://github.com/user-attachments/assets/9d7a9eca-e9fc-43e1-8180-306c20c2a3a9)
 ![image](https://github.com/user-attachments/assets/9c1df2f3-69ee-4e71-b584-5c1baa4724fb)
