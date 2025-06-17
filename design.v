@@ -1,7 +1,8 @@
 `timescale 1ns / 1ps
 
 module _4x4appmul(input [3:0] a, input [3:0] b, output [7:0] out);
-   wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,p30,g30,p21,g21,G,c1,c2,c3,c4,c5;
+   wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,p30,g30,p21,g21,G;
+   wire [5:1] c;
  
    assign out[0] = a[0] & b[0];
    assign x1 = a[1] & b[0];
@@ -27,12 +28,12 @@ module _4x4appmul(input [3:0] a, input [3:0] b, output [7:0] out);
    assign G = g30 | g21;
 
    
-  approx_ha     i1(x1,x2,out[1],c1);
-  approx_comp   i2(x3,x4,x5,c1,out[2],c2);
-  approx_comp   i3(p30,p21,G,c2,out[3],c3);
-  approx_comp   i4(x10,x11,x12,c3,out[4],c4);
-  approx_fa        i5(x13,x14,c4,out[5],c5);
-  approx_ha        i6(x15,c5,out[6],out[7]);
+  approx_ha     mod1(x1,x2,out[1],c[1]);
+  approx_comp   mod2(x3,x4,x5,c[1],out[2],c[2]);
+  approx_comp   mod3(p30,p21,G,c[2],out[3],c[3]);
+  approx_comp   mod4(x10,x11,x12,c[3],out[4],c[4]);
+  approx_fa     mod5(x13,x14,c[4],out[5],c[5]);
+  approx_ha     mod6(x15,c[5],out[6],out[7]);
    
 endmodule
 
