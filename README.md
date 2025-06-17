@@ -50,4 +50,26 @@ This architecture provides a balanced approach between computational efficiency 
 Mean Relative Error: 12.67%
 ![image](https://github.com/user-attachments/assets/4bf8ed75-9d9f-4c20-bc21-3218bbb6866e)
 
+Utilization Report: 11 LUTs were used.
+![image](https://github.com/user-attachments/assets/feae9ca8-9c59-4982-9480-7002ed014b10)
+![image](https://github.com/user-attachments/assets/79968b93-cba4-490c-b7f8-721ca7865745)
+![image](https://github.com/user-attachments/assets/28317803-1ce4-4c02-a89d-ff2dda46d524)
+![image](https://github.com/user-attachments/assets/2d2c3338-820b-47bd-b8c3-71edf9d5c941)
+![image](https://github.com/user-attachments/assets/e99d3c3b-423a-4ff4-af53-654619ed6eda)
+![image](https://github.com/user-attachments/assets/97853ed0-cde8-4fe7-b3d0-29ba134fbb44)
+![image](https://github.com/user-attachments/assets/f82831c8-52d0-4f40-a9ba-375302e356cb)
+
+Power Report:
+![image](https://github.com/user-attachments/assets/9d7a9eca-e9fc-43e1-8180-306c20c2a3a9)
+![image](https://github.com/user-attachments/assets/9c1df2f3-69ee-4e71-b584-5c1baa4724fb)
+![image](https://github.com/user-attachments/assets/f3ddbd13-2e90-4292-b9c8-6d3a37552536)
+![image](https://github.com/user-attachments/assets/72476c50-ddb9-4ee2-9eb6-4112359d6590)
+
+
+
+
+
+
+
+
 
